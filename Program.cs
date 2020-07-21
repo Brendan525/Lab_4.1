@@ -18,8 +18,7 @@ namespace Lab_4._1
             else
             {
                 OtherDice(ref sides);
-            }
-            
+            }           
         }
 
         static int GetRoll(out int dice, out int dice2, out int total)
@@ -89,8 +88,6 @@ namespace Lab_4._1
         } while (reRoll);
         
         }
-
-
 
         static void OtherDice(ref int sides)
         {
